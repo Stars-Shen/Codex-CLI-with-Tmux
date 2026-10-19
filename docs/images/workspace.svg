@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title description">
+  <title id="title">One tmux workspace, four independent Codex conversations</title>
+  <desc id="description">A workspace illustration with the code tab selected. The bottom bar has shell, paper, code, debug and experiment tabs. Four separate Codex processes remain available behind the task tabs.</desc>
+  <rect width="1200" height="650" rx="18" fill="#f6f8fa"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="36" y="50" font-size="28" font-weight="700" fill="#1f2328">One workspace. Four Codex conversations.</text>
+    <text x="36" y="81" font-size="16" fill="#59636e">Click a tab to switch. Each conversation keeps running.</text>
+
+    <rect x="36" y="103" width="1128" height="46" rx="8" fill="#eaeef2"/>
+    <text x="54" y="132" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#1f2328">$ bash start.sh swq ~/projects/my-app</text>
+
+    <rect x="36" y="168" width="1128" height="276" rx="12" fill="#fff" stroke="#d1d9e0"/>
+    <circle cx="58" cy="190" r="5" fill="#ff6059"/>
+    <circle cx="76" cy="190" r="5" fill="#ffbd2e"/>
+    <circle cx="94" cy="190" r="5" fill="#28c840"/>
+    <text x="117" y="195" font-size="14" font-weight="600" fill="#59636e">swq / code</text>
+    <text x="978" y="195" font-size="13" fill="#59636e">tmux window 3 of 5</text>
+    <path d="M36 210H1164" stroke="#d1d9e0"/>
+    <g font-family="DejaVu Sans Mono, monospace">
+      <text x="58" y="252" font-size="22" font-weight="700" fill="#1f2328">&gt;_ OpenAI Codex</text>
+      <text x="58" y="281" font-size="16" fill="#59636e">~/projects/my-app</text>
+      <text x="58" y="326" font-size="18" fill="#1f2328">› Implement the API endpoint</text>
+      <text x="58" y="358" font-size="15" fill="#59636e">The code conversation is visible. Other task windows keep running.</text>
+    </g>
+    <path d="M36 388H1164" stroke="#d1d9e0"/>
+    <path d="M37 389H1163V432Q1163 443 1152 443H48Q37 443 37 432Z" fill="#c2e9cc"/>
+    <g font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#153e24">
+      <text x="57" y="422" font-weight="700">[swq]</text>
+      <text x="169" y="422">1:shell</text>
+      <text x="340" y="422">2:paper</text>
+      <rect x="493" y="398" width="153" height="35" rx="6" fill="#1a7f37"/>
+      <text x="508" y="422" font-weight="700" fill="#fff">[3:code]</text>
+      <text x="696" y="422">4:debug</text>
+      <text x="879" y="422">5:experiment</text>
+    </g>
+
+    <text x="36" y="484" font-size="15" fill="#59636e">Each task tab runs a separate Codex process</text>
+    <g fill="#fff" stroke="#d1d9e0">
+      <rect x="36" y="502" width="270" height="76" rx="10"/>
+      <rect x="322" y="502" width="270" height="76" rx="10" stroke="#1a7f37"/>
+      <rect x="608" y="502" width="270" height="76" rx="10"/>
+      <rect x="894" y="502" width="270" height="76" rx="10"/>
+    </g>
+    <g font-size="17" font-weight="700" fill="#1f2328">
+      <text x="55" y="531">paper</text>
+      <text x="341" y="531" fill="#1a7f37">code · selected</text>
+      <text x="627" y="531">debug</text>
+      <text x="913" y="531">experiment</text>
+    </g>
+    <g font-size="14" fill="#59636e">
+      <text x="55" y="556">Independent conversation</text>
+      <text x="341" y="556">Independent conversation</text>
+      <text x="627" y="556">Independent conversation</text>
+      <text x="913" y="556">Independent conversation</text>
+      <text x="36" y="622">Detach: Ctrl+b d</text>
+      <text x="267" y="622">Reconnect: bash start.sh swq</text>
+    </g>
+  </g>
+</svg>
