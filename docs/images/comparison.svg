@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="500" viewBox="0 0 1180 500" role="img" aria-labelledby="title description">
+  <title id="title">Codex light terminal diff colors: before and after</title>
+  <desc id="description">An illustration comparing dark green and dark red fallback backgrounds with the light green and light red backgrounds of codex-light. Colors use the verified Codex palette.</desc>
+  <rect width="1180" height="500" rx="18" fill="#f6f8fa"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="36" y="49" font-size="27" font-weight="700" fill="#1f2328">Codex diffs, made for light terminals</text>
+    <text x="36" y="78" font-size="15" fill="#59636e">Catppuccin Latte syntax colors + explicit light diff backgrounds</text>
+
+    <rect x="36" y="107" width="542" height="324" rx="12" fill="#fff" stroke="#d1d9e0"/>
+    <rect x="602" y="107" width="542" height="324" rx="12" fill="#fff" stroke="#d1d9e0"/>
+    <path d="M36 158H578 M602 158H1144" stroke="#d1d9e0"/>
+    <circle cx="59" cy="133" r="5" fill="#cf222e"/>
+    <text x="74" y="139" font-size="15" font-weight="700" fill="#1f2328">BEFORE</text>
+    <text x="161" y="139" font-size="14" fill="#59636e">Dark fallback on a light terminal</text>
+    <circle cx="625" cy="133" r="5" fill="#1a7f37"/>
+    <text x="640" y="139" font-size="15" font-weight="700" fill="#1f2328">AFTER</text>
+    <text x="716" y="139" font-size="14" fill="#59636e">codex-light</text>
+
+    <g font-family="DejaVu Sans Mono, monospace" font-size="16">
+      <text x="56" y="196" fill="#59636e">• Edited config.toml (<tspan fill="#1a7f37">+1</tspan> <tspan fill="#cf222e">-1</tspan>)</text>
+      <rect x="48" y="215" width="518" height="40" fill="#4a221d"/>
+      <rect x="48" y="255" width="518" height="40" fill="#213a2b"/>
+      <text x="63" y="241" fill="#969cb4">22 <tspan fill="#d20f39">-</tspan><tspan fill="#cdd6f4">theme = </tspan><tspan fill="#a6e3a1">'catppuccin-mocha'</tspan></text>
+      <text x="63" y="281" fill="#969cb4">22 <tspan fill="#40a02b">+</tspan><tspan fill="#cdd6f4">theme = </tspan><tspan fill="#a6e3a1">'codex-light'</tspan></text>
+      <text x="63" y="322" fill="#59636e">23  notifications = false</text>
+
+      <text x="622" y="196" fill="#59636e">• Edited config.toml (<tspan fill="#1a7f37">+1</tspan> <tspan fill="#cf222e">-1</tspan>)</text>
+      <rect x="614" y="215" width="518" height="40" fill="#ffebe9"/>
+      <rect x="614" y="255" width="518" height="40" fill="#dafbe1"/>
+      <text x="629" y="241" fill="#59636e">22 <tspan fill="#cf222e">-</tspan><tspan fill="#4c4f69">theme = </tspan><tspan fill="#327c21">'catppuccin-mocha'</tspan></text>
+      <text x="629" y="281" fill="#59636e">22 <tspan fill="#1a7f37">+</tspan><tspan fill="#4c4f69">theme = </tspan><tspan fill="#327e22">'codex-light'</tspan></text>
+      <text x="629" y="322" fill="#59636e">23  notifications = false</text>
+    </g>
+
+    <path d="M56 348H558 M622 348H1124" stroke="#eff2f5"/>
+    <rect x="56" y="370" width="16" height="16" rx="3" fill="#213a2b"/>
+    <text x="81" y="383" font-size="14" fill="#59636e">#213a2b</text>
+    <rect x="200" y="370" width="16" height="16" rx="3" fill="#4a221d"/>
+    <text x="225" y="383" font-size="14" fill="#59636e">#4a221d</text>
+    <rect x="622" y="370" width="16" height="16" rx="3" fill="#dafbe1" stroke="#aceebb"/>
+    <text x="647" y="383" font-size="14" fill="#59636e">#dafbe1</text>
+    <rect x="766" y="370" width="16" height="16" rx="3" fill="#ffebe9" stroke="#ffcecb"/>
+    <text x="791" y="383" font-size="14" fill="#59636e">#ffebe9</text>
+    <text x="36" y="469" font-size="14" fill="#59636e">Illustration based on verified RGB values · No tmux upgrade required</text>
+  </g>
+</svg>
